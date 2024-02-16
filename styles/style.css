@@ -68,3 +68,58 @@ body {
   font-weight: 700;
   margin-bottom: 48px;
 }
+
+/* Party Style Section */
+.midnight-party {
+  background-image: url("../assets/images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+  padding: 10px 50px;
+  position: relative;
+}
+.party-left {
+  width: 60%;
+  margin-left: 20px;
+  color: #fff;
+}
+.party-title {
+  font-family: Merriweather;
+  font-size: 54px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+.party-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.join-btn {
+  color: #fff;
+  background: #f00;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  padding: 20px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bg-party {
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  background: linear-gradient(175deg, #070211 0%, rgba(7, 2, 17, 0) 55%);
+  bottom: 0;
+  top: 0;
+  right: 0;
+  border-radius: 10px;
+}
