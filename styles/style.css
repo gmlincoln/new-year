@@ -147,6 +147,7 @@ body {
 .party-highlight {
   color: #f00;
 }
+
 /* Coming Soon Style Section */
 .coming-soon {
   display: flex;
@@ -196,19 +197,75 @@ body {
   color: #f00;
   font-size: 40px;
   font-weight: 700;
+  margin-top: 60px;
   margin-bottom: 16px;
 }
 .coming-soon-right p {
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   font-weight: 400;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .coming-soon-right img {
   width: 140px;
   height: 140px;
 }
-
+/* Holiday Sale Style Section */
+.holiday-sale {
+  text-align: center;
+  margin-bottom: 120px;
+}
+.holiday-sale-content {
+  margin-bottom: 50px;
+}
+.holiday-sale h3 {
+  color: #070211;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.holiday-sale h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.holiday-sale-special {
+  color: #f00;
+}
+.holiday-sale p {
+  width: 968px;
+  margin: 0 auto;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.holiday-discount {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../assets/images/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  height: 650px;
+  border-radius: 10px;
+}
+.holiday-discount-left img {
+  margin: 80px 0 0 20px;
+  width: 600px;
+}
+.holiday-discount-right {
+}
+.holiday-discount-right img {
+  z-index: -1;
+  position: relative;
+}
+.discount-percentage {
+  bottom: 350px;
+  right: 200px;
+  position: relative;
+}
 /* Portfolio Style Section */
 .awesome-portfolio {
   margin-bottom: 120px;
@@ -249,6 +306,12 @@ body {
 .portfolio-images-bottom img {
   width: 40%;
 }
+/* .portfolio-images-top img:hover {
+  position: absolute;
+  background: #000;
+  z-index: 1;
+  border-radius: 15px;
+} */
 /* .portfolio-images-top img:hover,
 .portfolio-images-bottom img:hover {
 } */
@@ -324,8 +387,7 @@ footer {
   font-weight: 500;
   line-height: 30px;
 }
-.address {
-}
+
 .social-media {
   text-align: center;
   margin: 50px 0;
