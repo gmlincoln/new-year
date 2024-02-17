@@ -154,8 +154,6 @@ body {
   line-height: 32px;
 }
 
-.portfolio-content {
-}
 .portfolio-images-top,
 .portfolio-images-bottom {
   display: flex;
@@ -166,6 +164,60 @@ body {
 .portfolio-images-bottom img {
   width: 40%;
 }
-.portfolio-images-top img:hover,
+/* .portfolio-images-top img:hover,
 .portfolio-images-bottom img:hover {
+} */
+
+/* Subscriber Section Style */
+.subscriber {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  height: 500px;
+  text-align: center;
+  padding: 50px 210px;
+  margin-bottom: 120px;
+}
+.subscriber img {
+  margin: 20px 0 30px;
+}
+.subscriber-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 45px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.subscriber p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.subscribe-email > form > input {
+  border: 0;
+  padding: 25px 20px;
+  margin-bottom: 40px;
+}
+.subscribe-email input[type="email"] {
+  font-size: 18px;
+  background: #fff;
+  border-radius: 50px 0px 0px 50px;
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-weight: 400;
+  width: 400px;
+}
+.subscribe-email input[type="submit"] {
+  font-size: 18px;
+  padding: 25px 16px;
+  border-radius: 0px 50px 50px 0px;
+  margin-left: -5px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  width: 150px;
 }
