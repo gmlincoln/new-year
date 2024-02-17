@@ -1,17 +1,19 @@
 * {
   margin: 0;
 }
+/*Common Shared Style */
 body {
-  font-family: "Merriweather", serif;
   font-family: "Inter", sans-serif;
 }
 .fixed-width {
   max-width: 1120px;
   margin: 0 auto;
 }
+
 /* Header Style Section */
 
 .header-banner {
+  font-family: "Merriweather", serif;
   background-image: url("../assets/images/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,7 +41,30 @@ body {
   position: absolute;
   height: 500px;
   width: 100%;
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 55%);
+  background: linear-gradient(175deg, #070211 0%, rgba(7, 2, 17, 0) 55%);
   bottom: 0;
   border-radius: 10px;
+}
+
+/* Discount Style Section */
+.discount {
+  text-align: center;
+  color: #f00;
+  margin: 120px 0px;
+}
+.discount-percent {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.discount-time {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.discount-title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
 }
