@@ -221,3 +221,42 @@ body {
   cursor: pointer;
   width: 150px;
 }
+
+/* Footer Styles */
+footer {
+  background-color: #070211;
+  color: #fff;
+}
+.footer {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 120px 140px;
+  font-size: 20px;
+}
+.contact-address {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  line-height: 30px;
+}
+.address {
+}
+.social-media {
+  text-align: center;
+  margin: 50px 0;
+}
+.social-media hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.social-media img {
+  margin: 48px 10px;
+  cursor: pointer;
+}
+.copy-right {
+  display: flex;
+  justify-content: space-between;
+}
+.copy-right a {
+  color: #fff;
+  text-decoration: none;
+}
